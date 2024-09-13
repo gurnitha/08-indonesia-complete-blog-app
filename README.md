@@ -1,5 +1,5 @@
-# 08-indonesia-complete-blog-app
-Membuat A COMPLETE BLOG APP Menggunakan Django 5
+# 08-indonesia-dj5-complete-basics-setup
+Membuat 'A Comprehensive Basics Setup Web Development' Django 5
 Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
@@ -493,3 +493,19 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 ## 8. HOUSE KEEPING
 
+#### 1. Mengganti nama remote repositori
+
+        Note:
+
+        Agar pekerjaan dapat dilaksanakan secara lebih efektif dan efisien, maka saya memutuskan untuk menjadikan setup ini sebagai setuap yang sangat komprehensif untuk memulai proyek Django. Untuk itu telah dilakukan:
+
+        1. Mengganti nama remote repositori 
+
+        dari    : 08-indonesia-complete-blog-app
+        menjadi : 08-indonesia-dj5-complete-basics-setup
+
+        2. Pengerjaan proyek-proyek selanjutnya dapat
+        mengunduh setup ini dan selanjutnya bisa memulai
+        pengerjaan proyek.
+
+        modified:   README.md

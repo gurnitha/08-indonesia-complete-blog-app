@@ -31,3 +31,40 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 2. PROYEK DJANGO
+
+#### 1. Memeriksa sub-perintah yang tersedia pada django-admin
+
+        C:\Users\ING\Desktop\workspace\08-indonesia-complete-blog-app\src(main -> origin)
+        (venv312511) λ django-admin
+
+        Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        [django]
+            check
+            compilemessages
+            createcachetable
+            dbshell
+            diffsettings
+            dumpdata
+            flush
+            inspectdb
+            loaddata
+            makemessages
+            makemigrations
+            migrate
+            optimizemigration
+            runserver
+            sendtestemail
+            shell
+            showmigrations
+            sqlflush
+            sqlmigrate
+            sqlsequencereset
+            squashmigrations
+            startapp
+            startproject
+            test
+            testserver
+        Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).

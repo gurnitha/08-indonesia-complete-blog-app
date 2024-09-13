@@ -325,3 +325,12 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         new file:   .env.example
         modified:   README.md
+
+#### 2. Menginstal django-environ
+
+        (venv312511) λ python -m pip install django-environ
+        Collecting django-environ
+          Using cached django_environ-0.11.2-py2.py3-none-any.whl.metadata (11 kB)
+        Using cached django_environ-0.11.2-py2.py3-none-any.whl (19 kB)
+        Installing collected packages: django-environ
+        Successfully installed django-environ-0.11.2

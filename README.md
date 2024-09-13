@@ -218,3 +218,8 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 3. PENGATURAN
+
+#### 1. Pengaturan bahasa dari Bahasa Inggris ke Bahasa Indonesia
+
+        modified:   README.md
+        modified:   config/settings.py

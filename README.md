@@ -269,3 +269,32 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
          ...
          indonesia_80_complete_blog_app
         (8 rows)
+
+#### 2. Menghubungkan proyek dengan database
+
+        # PostgreSQL DB
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': 'indonesia_80_complete_blog_app',
+                'USER': 'postgres',
+                'PASSWORD': 'postgres',
+                'HOST': 'localhost',
+                'PORT': '5432'
+            }
+        }
+
+        Note:
+
+        Terjadi error karena driver atau modul psycopg2 atau psycopg belum
+        di instal.
+
+        raise ImproperlyConfigured("Error loading psycopg2 or psycopg module")
+        django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 or psycopg module
+
+        Next:
+
+        Menginstal psycopg2
+
+        modified:   README.md
+        modified:   config/settings.py

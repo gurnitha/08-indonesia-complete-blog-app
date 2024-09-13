@@ -298,3 +298,15 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Menginstal driver atau module psycopg2
+
+        (venv312511) λ pip install psycopg2
+        Collecting psycopg2
+          Using cached psycopg2-2.9.9-cp312-cp312-win_amd64.whl.metadata (4.5 kB)
+        Using cached psycopg2-2.9.9-cp312-cp312-win_amd64.whl (1.2 MB)
+        Installing collected packages: psycopg2
+        Successfully installed psycopg2-2.9.9
+
+        (venv312511) λ python manage.py check
+        System check identified no issues (0 silenced).

@@ -371,3 +371,10 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 6. APLIKASI DJANGO
+
+#### 1. Membuat folder app\main
+
+        (venv312511) λ mkdir app\main
+
+        app
+        └── main

@@ -13,18 +13,32 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 
 # ///////////////// new added scripts /////////////////
+# Import os
 import os
+
+# 1/5. Import environ
+import environ
+# 2/5. Use Env module
+env = environ.Env(
+    # set casting, default value
+    # DEBUG=(bool, False)
+    DEBUG=(bool, True)
+)
+
 # ///////////////// new added scripts ends ////////////
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# 3/5. Take environment variables from .env file
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=icem*3lk6xx9*#s00ctwagoa9ble)he-qc+2p6w0&7v237g&g'
+# 4/5. Use environ variable for SECRET_KEY
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -143,15 +157,16 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
 
+# 5/5. Use environ variable for DATABASE_NAME,DATABASE_USER,DATABASE_PASSWORD,DATABASE_HOST, and DATABASE_PORT
 # PostgreSQL DB
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'indonesia_80_complete_blog_app',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT')
     }
 }
 

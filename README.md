@@ -334,3 +334,37 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         Using cached django_environ-0.11.2-py2.py3-none-any.whl (19 kB)
         Installing collected packages: django-environ
         Successfully installed django-environ-0.11.2
+
+#### 3. Mengimplementasikan environ variabel pada settings.py
+
+        # 1/5. Import environ
+        import environ
+
+        # 2/5. Use Env module
+        env = environ.Env(
+            # set casting, default value
+            # DEBUG=(bool, False)
+            DEBUG=(bool, True)
+        )
+
+        # 3/5. Take environment variables from .env file
+        environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+
+        # 4/5. Use environ variable for SECRET_KEY
+        SECRET_KEY = env('SECRET_KEY')
+        
+        # 5/5. Use environ variable for DATABASE_NAME,DATABASE_USER,DATABASE_PASSWORD,DATABASE_HOST, and DATABASE_PORT
+        # PostgreSQL DB
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': env('DATABASE_NAME'),
+                'USER': env('DATABASE_USER'),
+                'PASSWORD': env('DATABASE_PASSWORD'),
+                'HOST': env('DATABASE_HOST'),
+                'PORT': env('DATABASE_PORT')
+            }
+        }
+
+        modified:   README.md
+        modified:   config/settings.py

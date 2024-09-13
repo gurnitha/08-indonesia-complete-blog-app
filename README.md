@@ -72,7 +72,7 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 #### 2. Menginisiasi Django proyek dengan nama config
 
         (venv312511) λ django-admin startproject config .
-        
+
         modified:   README.md
         new file:   config/__init__.py
         new file:   config/asgi.py
@@ -90,3 +90,22 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         │   ├── urls.py
         │   └── wsgi.py
         └── manage.py
+
+#### 3. Menjalankan development server
+
+        (venv312511) λ ls
+        config/  manage.py*  README.md
+
+        C:\Users\ING\Desktop\workspace\08-indonesia-complete-blog-app\src(main -> origin)
+        (venv312511) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        September 13, 2024 - 12:02:33
+        Django version 5.1.1, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.

@@ -468,3 +468,24 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         modified:   app/main/views.py
         # 3. Menyertakan app/main/urls.py pada config/urls.py
         modified:   config/urls.py
+
+#### 2. Membuat halo dunia ini waktu Bojonggede, Bogor
+
+        # app/main/views.py
+
+        # Django and third modules
+        from django.shortcuts import render
+        from django.http import HttpResponse
+        import datetime
+
+        # Create your views here.
+
+        def halo_dunia(request):
+            now = datetime.datetime.now()
+            html = "<html><body>Halo Dunia!<br> Ini adalah waktu Bojonggede, Bogor (Jakarta) %s.</body></html>" % now
+            return HttpResponse(html)
+
+        # Aktivitas
+        modified:   README.md
+        # 1. Memodifikasi fungsi helo_dunia dengan menyertakan waktu
+        modified:   app/main/views.py

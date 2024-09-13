@@ -3,9 +3,11 @@
 # Django and third modules
 from django.shortcuts import render
 from django.http import HttpResponse
+import datetime
 
 # Create your views here.
 
 def halo_dunia(request):
-    html = "Halo Dunia!<br> dari Bojonggede, Bogor"
+    now = datetime.datetime.now()
+    html = "<html><body>Halo Dunia!<br> Ini adalah waktu Bojonggede, Bogor (Jakarta) %s.</body></html>" % now
     return HttpResponse(html)

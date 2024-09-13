@@ -211,3 +211,5 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         The password is too similar to the email address.
         Bypass password validation and create user anyway? [y/N]: y
         Superuser created successfully.
+
+#### 7. Login superuser

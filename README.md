@@ -1,6 +1,6 @@
 # 08-indonesia-dj5-complete-basics-setup
 Membuat 'A Comprehensive Basics Setup Web Development' Django 5
-Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
+Github: https://github.com/gurnitha/08-indonesia-dj5-complete-basics-setup
 
 
 ## 1. SETUP
@@ -507,5 +507,9 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         2. Pengerjaan proyek-proyek selanjutnya dapat
         mengunduh setup ini dan selanjutnya bisa memulai
         pengerjaan proyek.
+
+        modified:   README.md
+
+#### 2. Meng-update link ke remote repositori dengan nama yang baru
 
         modified:   README.md

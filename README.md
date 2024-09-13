@@ -243,3 +243,29 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 4. DATABASE
+
+#### 1. Membuat database menggunakan postgresql
+
+
+        λ psql -U postgres
+        psql (16.2)
+        WARNING: Console code page (437) differs from Windows code page (1252)
+                 8-bit characters might not work correctly. See psql reference
+                 page "Notes for Windows users" for details.
+        Type "help" for help.
+
+        postgres=# 
+
+        postgres=# CREATE DATABASE 80_indonesia_dj5_manajemen_rumah_sakit;
+        ERROR:  trailing junk after numeric literal at or near "80_"
+        LINE 1: CREATE DATABASE 80_indonesia_complete_blog_app
+                                ^
+        postgres=# CREATE DATABASE indonesia_80_complete_blog_app;
+        CREATE DATABASE
+
+        postgres=# SELECT datname FROM pg_database;
+                        datname
+        ----------------------------------------
+         ...
+         indonesia_80_complete_blog_app
+        (8 rows)

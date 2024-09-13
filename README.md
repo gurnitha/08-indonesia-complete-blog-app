@@ -310,3 +310,6 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         (venv312511) λ python manage.py check
         System check identified no issues (0 silenced).
+
+
+## 5. MELINDUNGI FILE PENTING

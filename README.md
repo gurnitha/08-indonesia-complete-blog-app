@@ -402,3 +402,28 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         new file:   app/main/models.py
         new file:   app/main/tests.py
         new file:   app/main/views.py
+
+#### 3. Mengintegrasikan aplikasi main dengan proyek
+        
+        # app/main/apps.py
+        class MainConfig(AppConfig):
+            default_auto_field = 'django.db.models.BigAutoField'
+            # name = 'main'
+            name = 'app.main'
+
+        # app/main/settings.py
+        INSTALLED_APPS = [
+            'django.contrib.admin',
+            'django.contrib.auth',
+            'django.contrib.contenttypes',
+            'django.contrib.sessions',
+            'django.contrib.messages',
+            'django.contrib.staticfiles',
+
+            # locals apps
+            'app.main.apps.MainConfig',
+        ]
+
+        modified:   README.md
+        modified:   app/main/apps.py
+        modified:   config/settings.py

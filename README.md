@@ -223,3 +223,8 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 2. Pengaturan waktu dari UTC ke waktu Asia/Jakarta
+
+        modified:   README.md
+        modified:   config/settings.py

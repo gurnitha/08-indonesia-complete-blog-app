@@ -127,4 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Set lenguage to Bahasa Indonesia
 LANGUAGE_CODE = 'id'
 
+# Set time to Asia/Jakarta
+TIME_ZONE = 'Asia/Jakarta'
+
 # ///////////////// new added scripts ends ////////////

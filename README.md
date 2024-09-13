@@ -489,3 +489,7 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         modified:   README.md
         # 1. Memodifikasi fungsi helo_dunia dengan menyertakan waktu
         modified:   app/main/views.py
+
+
+## 8. HOUSE KEEPING
+

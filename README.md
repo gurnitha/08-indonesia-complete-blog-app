@@ -427,3 +427,6 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         modified:   README.md
         modified:   app/main/apps.py
         modified:   config/settings.py
+
+
+## 7. HALO DUNIA

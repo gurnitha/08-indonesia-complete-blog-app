@@ -313,3 +313,15 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 5. MELINDUNGI FILE PENTING
+
+#### 1. Membuat file .env, .env.example dan melengkapinya dengan environ variabel
+
+        SECRET_KEY=django-insecure-kdk&^0&-uj(nmy!*6%x@(-i(gj5p#h%5kn93ya+$qp+0qkj1gz
+        DATABASE_NAME=indonesia_80_dj5_manajemen_rumah_sakit
+        DATABASE_USER=postgres
+        DATABASE_PASSWORD=postgres
+        DATABASE_HOST=localhost
+        DATABASE_PORT=5432
+
+        new file:   .env.example
+        modified:   README.md

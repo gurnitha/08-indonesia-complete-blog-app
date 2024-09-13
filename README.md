@@ -213,3 +213,5 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         Superuser created successfully.
 
 #### 7. Login superuser
+
+#### 8. Meng-update superuser

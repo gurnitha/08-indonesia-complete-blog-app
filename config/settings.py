@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+# ///////////////// new added scripts /////////////////
+import os
+# ///////////////// new added scripts ends ////////////
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -129,5 +133,10 @@ LANGUAGE_CODE = 'id'
 
 # Set time to Asia/Jakarta
 TIME_ZONE = 'Asia/Jakarta'
+
+# Set path for static files in development
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # ///////////////// new added scripts ends ////////////

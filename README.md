@@ -228,3 +228,9 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Membuat path untuk static files
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py

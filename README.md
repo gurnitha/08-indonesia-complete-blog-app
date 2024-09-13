@@ -200,3 +200,14 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
              mensetup postgres database yang akan kita gunakan 
              pada proyek ini. 
           3. Karena tabel-tabel telah dibuat, satu diantara mereka adalah tabel auth_user, maka kita bisa menggunakannya dengan membuat superuser.
+
+#### 6. Membuat superuser
+
+        (venv312511) λ python manage.py createsuperuser
+        Username (leave blank to use 'ing'): superuser
+        Email address: superuser@mail.com
+        Password:
+        Password (again):
+        The password is too similar to the email address.
+        Bypass password validation and create user anyway? [y/N]: y
+        Superuser created successfully.

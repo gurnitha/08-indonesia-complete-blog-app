@@ -68,3 +68,25 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
             test
             testserver
         Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+
+#### 2. Menginisiasi Django proyek dengan nama config
+
+        (venv312511) λ django-admin startproject config .
+        
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
+
+        src
+        ├── README.md
+        ├── config
+        │   ├── __init__.py
+        │   ├── asgi.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        └── manage.py

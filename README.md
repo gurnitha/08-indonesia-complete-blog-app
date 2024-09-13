@@ -234,3 +234,9 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
         modified:   README.md
         modified:   config/settings.py
         modified:   config/urls.py
+
+#### 4. Membuat path untuk media files
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py

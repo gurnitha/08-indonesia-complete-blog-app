@@ -352,7 +352,7 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         # 4/5. Use environ variable for SECRET_KEY
         SECRET_KEY = env('SECRET_KEY')
-        
+
         # 5/5. Use environ variable for DATABASE_NAME,DATABASE_USER,DATABASE_PASSWORD,DATABASE_HOST, and DATABASE_PORT
         # PostgreSQL DB
         DATABASES = {
@@ -368,3 +368,6 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
         modified:   README.md
         modified:   config/settings.py
+
+
+## 6. APLIKASI DJANGO

@@ -430,3 +430,41 @@ Github: https://github.com/gurnitha/08-indonesia-complete-blog-app
 
 
 ## 7. HALO DUNIA
+
+#### 1. Membuat halo dunia
+
+        # app/main/urls.py
+
+        # Django and third party modules
+        from django.urls import path
+
+        # Locals
+        from app.main import views 
+
+        # appname
+        app_name = 'main'
+
+        urlpatterns = [
+            path("", views.halo_dunia, name='halo'),
+        ]
+
+        # app/main/views.py
+
+        # Django and third modules
+        from django.shortcuts import render
+        from django.http import HttpResponse
+
+        # Create your views here.
+
+        def halo_dunia(request):
+            html = "Halo Dunia!<br> dari Bojonggede, Bogor"
+            return HttpResponse(html)
+
+        # Aktivitas
+        modified:   README.md
+        # 1. Membuat urls. maving fungsi helo_dunia di views
+        new file:   app/main/urls.py
+        # 2. Membuat fungsi helo_dunia di views
+        modified:   app/main/views.py
+        # 3. Menyertakan app/main/urls.py pada config/urls.py
+        modified:   config/urls.py

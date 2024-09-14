@@ -513,3 +513,8 @@ Github: https://github.com/gurnitha/08-indonesia-dj5-complete-basics-setup
 #### 2. Meng-update link ke remote repositori dengan nama yang baru
 
         modified:   README.md
+
+#### 3. Create requirements.txt file
+
+        modified:   README.md
+        new file:   requirements.txt

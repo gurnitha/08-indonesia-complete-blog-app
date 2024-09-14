@@ -518,3 +518,10 @@ Github: https://github.com/gurnitha/08-indonesia-dj5-complete-basics-setup
 
         modified:   README.md
         new file:   requirements.txt
+
+#### 4. List the installed packages to requirements.txt file
+
+        pip freeze > requirements.txt
+
+        modified:   README.md
+        modified:   requirements.txt

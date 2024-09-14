@@ -525,3 +525,34 @@ Github: https://github.com/gurnitha/08-indonesia-dj5-complete-basics-setup
 
         modified:   README.md
         modified:   requirements.txt
+
+#### 5. Cara instal scripts dab menjalankan proyek Django
+
+        1. Telah menginstal Python versi 3.12 atau yang lebih tinggi.
+        2. Telah menginstal PostgreSQL atau MySQL database.
+        3. Download repositori:
+           C:\Users\ING\Desktop\workspace>git clone git@github.com:gurnitha/08-indonesia-dj5-complete-basics-setup.git
+        4. Buat virtual environment (boleh menaminya apa saja, misal .env)
+        5. Aktifkan .env
+        6. Instal paket-paket Python yang ada pada requirements.txt file
+           dengan cara: pip install -r requirements.txt
+        7. Buat database.
+        8. Buat .env file.
+        9. Copas contoh environ variabel dari .env.example ke .env file.
+        10. Lengkapi .env file dengan kredensial database dan SECRET_KEY dari settings.py atau buat sendiri SECRET_KEY agar tidak sama dengan contoh.
+        11. Test dengan menjalankan perintah ini:
+            python manage.py check
+        12. Jika langkah 11 tidak ada masalah, jalankan development server dengan perintah ini: python manage.py runserver.
+        13. Buka browser dan gunakan default url: http://127.0.0.1:8000/
+        dan Anda akan lihat laman default seperti ini:
+
+        Halo Dunia!
+        Ini adalah waktu Bojonggede, Bogor (Jakarta) 2024-09-14 17:58:16.596829.
+
+        Note: 
+
+        Waktu yang ditampilkan adalah waktu saat Anda menjalankan server.
+        Tampilan waktu akan berubah jika Anda me-refresh browser.
+
+        Good luck!
+
